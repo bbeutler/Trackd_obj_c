@@ -1,0 +1,1444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Ri4-qS-t8b">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="sf-ui-display-light.otf">
+            <string>SFUIDisplay-Light</string>
+        </array>
+        <array key="sf-ui-display-regular.otf">
+            <string>SFUIDisplay-Regular</string>
+        </array>
+        <array key="sf-ui-text-light.otf">
+            <string>SFUIText-Light</string>
+        </array>
+        <array key="sf-ui-text-regular.otf">
+            <string>SFUIText-Regular</string>
+        </array>
+        <array key="sf-ui-text-semibold.otf">
+            <string>SFUIText-Semibold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--WelcomeVC-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="WelcomeVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="WelcomeVC" customModule="Trackd" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gDB-sQ-qgD">
+                                <rect key="frame" x="0.0" y="195" width="375" height="339"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="r_create" translatesAutoresizingMaskIntoConstraints="NO" id="rt8-FO-O9x">
+                                        <rect key="frame" x="40" y="67" width="294" height="223"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Let's get the music started!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M6F-Ce-ylv">
+                                        <rect key="frame" x="70" y="37" width="235" height="22"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v8x-WA-EHy">
+                                        <rect key="frame" x="46" y="125" width="283" height="43"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">Create my Free Community Profile
+and make the most of Trackd.</string>
+                                        <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G3X-Gg-NoN">
+                                        <rect key="frame" x="53" y="302" width="269" height="37"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">Let me Try Trackd First.
+I'll Create my Free Profile later.</string>
+                                        <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ojm-kE-0nv">
+                                        <rect key="frame" x="124" y="0.0" width="127" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="SFUIDisplay-Light" family="SF UI Display" pointSize="30"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MvS-ic-l6i">
+                                        <rect key="frame" x="59" y="186" width="256" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="1" green="0.6432839035987854" blue="0.065330743789672852" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="17"/>
+                                        <state key="normal" title="CREATE YOUR FREE PROFILE">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="SN7-BR-SYH" kind="show" id="RBD-vn-rqN"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo_t" translatesAutoresizingMaskIntoConstraints="NO" id="kiN-UN-lJT">
+                                <rect key="frame" x="88" y="47" width="201" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="XoC-8J-tnP">
+                                <rect key="frame" x="132" y="616" width="112" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="14"/>
+                                <state key="normal">
+                                    <string key="title">Already Joined?
+Login Now.</string>
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="xhH-5y-8Gt" kind="show" id="C8a-ci-eH8"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="KCi-T2-tLx"/>
+                    <connections>
+                        <outlet property="btnCreateProfile" destination="MvS-ic-l6i" id="E9U-e1-ay2"/>
+                        <outlet property="btnLogin" destination="XoC-8J-tnP" id="CM3-v1-5oM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="649" y="44"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Ud9-xY-qCB">
+            <objects>
+                <navigationController navigationBarHidden="YES" id="Ri4-qS-t8b" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="YFi-q0-vPO">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="LYi-oe-mYe"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r2c-qU-II5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-81" y="44"/>
+        </scene>
+        <!--Sign UpVC-->
+        <scene sceneID="FJj-h8-Vgk">
+            <objects>
+                <viewController storyboardIdentifier="SignUpVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="SN7-BR-SYH" customClass="SignUpVC" customModule="Trackd" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fe7-gS-Ksn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tN7-0G-JpH" userLabel="viewHeader">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="66t-1W-FiA">
+                                        <rect key="frame" x="0.0" y="43" width="375" height="1"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                        <color key="backgroundColor" red="0.70189809799194336" green="0.70200085639953613" blue="0.70187574625015259" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="LpX-ij-IfE">
+                                        <rect key="frame" x="161" y="3" width="52" height="38"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gJU-n8-fiY">
+                                        <rect key="frame" x="8" y="7" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="btn_back"/>
+                                        <connections>
+                                            <action selector="onBack:" destination="SN7-BR-SYH" eventType="touchUpInside" id="nR5-qt-z78"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Y1T-Xf-J7K"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GGQ-eu-AlE" userLabel="viewBody">
+                                <rect key="frame" x="0.0" y="72" width="375" height="595"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bg9-58-WWE">
+                                        <rect key="frame" x="29" y="18" width="316" height="48"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="btn_fbconnect"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Whoops! Email already in use! Please Login Now!" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HJ3-T9-uSK">
+                                        <rect key="frame" x="53" y="74" width="268" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="11"/>
+                                        <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Create Your Free Profile" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9DD-iV-ulM">
+                                        <rect key="frame" x="53" y="97" width="268" height="32"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="23"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Enter Your Email Address" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PZp-I3-Qpj">
+                                        <rect key="frame" x="53" y="136" width="268" height="15"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="SFUIText-Light" family="SF UI Text" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="Szz-s2-uWw">
+                                        <rect key="frame" x="53" y="159" width="268" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="15"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Choose a Nickname" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Jf-r2-XAW">
+                                        <rect key="frame" x="53" y="197" width="268" height="15"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="SFUIText-Light" family="SF UI Text" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="x9x-IK-6Xl">
+                                        <rect key="frame" x="53" y="221" width="268" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="15"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Choose a Password" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kb3-pQ-km3">
+                                        <rect key="frame" x="53" y="258" width="268" height="15"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="SFUIText-Light" family="SF UI Text" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="8pV-mx-TJg">
+                                        <rect key="frame" x="53" y="282" width="268" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="15"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="By Proceeding, you agree to our Terms and Conditions and Privacy Policy" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6W9-eO-iEm">
+                                        <rect key="frame" x="53" y="319" width="268" height="39"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="SFUIText-Light" family="SF UI Text" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="wwQ-DW-3yR">
+                                        <rect key="frame" x="53" y="547" width="268" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="12"/>
+                                        <state key="normal" title="Already have a profile? Login Now">
+                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="xhH-5y-8Gt" kind="show" id="SHN-Eo-XZF"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="9O9-55-Cju">
+                                        <rect key="frame" x="176" y="366" width="145" height="36"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="SFUIText-Light" family="SF UI Text" pointSize="17"/>
+                                        <state key="normal" title="Create Account">
+                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onCreate:" destination="SN7-BR-SYH" eventType="touchUpInside" id="QPK-LL-Lat"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="xiu-dW-jg9" firstAttribute="trailing" secondItem="tN7-0G-JpH" secondAttribute="trailing" id="37f-iY-lF9"/>
+                            <constraint firstItem="GGQ-eu-AlE" firstAttribute="top" secondItem="tN7-0G-JpH" secondAttribute="bottom" constant="8" id="Be0-4S-i7m"/>
+                            <constraint firstItem="GGQ-eu-AlE" firstAttribute="bottom" secondItem="xiu-dW-jg9" secondAttribute="bottom" id="EY2-Cg-W0W"/>
+                            <constraint firstItem="GGQ-eu-AlE" firstAttribute="leading" secondItem="xiu-dW-jg9" secondAttribute="leading" id="e0V-ER-LhW"/>
+                            <constraint firstItem="tN7-0G-JpH" firstAttribute="top" secondItem="xiu-dW-jg9" secondAttribute="top" id="hzH-B7-NjF"/>
+                            <constraint firstItem="tN7-0G-JpH" firstAttribute="leading" secondItem="xiu-dW-jg9" secondAttribute="leading" id="mMf-Eg-3zk"/>
+                            <constraint firstItem="GGQ-eu-AlE" firstAttribute="trailing" secondItem="xiu-dW-jg9" secondAttribute="trailing" id="qhD-Um-J88"/>
+                            <constraint firstItem="xiu-dW-jg9" firstAttribute="top" secondItem="tN7-0G-JpH" secondAttribute="bottom" constant="-44" id="slL-1N-Y4O"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="xiu-dW-jg9"/>
+                    </view>
+                    <connections>
+                        <outlet property="lblError" destination="HJ3-T9-uSK" id="zN0-0Y-o7U"/>
+                        <outlet property="tfEmail" destination="Szz-s2-uWw" id="OJA-0b-4l4"/>
+                        <outlet property="tfPassword" destination="8pV-mx-TJg" id="s9Z-VV-ZL0"/>
+                        <outlet property="tfUsername" destination="x9x-IK-6Xl" id="dMD-Jd-8MQ"/>
+                        <segue destination="Y3i-y2-WbW" kind="show" identifier="segueTerms" id="WPv-VY-T4e"/>
+                        <segue destination="qEO-7N-jvH" kind="show" identifier="segueThanks" id="CmO-3i-4dW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DE3-oU-zFb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1357.5999999999999" y="43.628185907046479"/>
+        </scene>
+        <!--Check InboxVC-->
+        <scene sceneID="GL3-i6-aTT">
+            <objects>
+                <viewController storyboardIdentifier="CheckInboxVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="qEO-7N-jvH" customClass="CheckInboxVC" customModule="Trackd" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tKj-8e-kRe">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rgi-6m-M1b">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nzO-ex-g5E">
+                                        <rect key="frame" x="0.0" y="43" width="375" height="1"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                        <color key="backgroundColor" red="0.70189809800000003" green="0.70200085639999998" blue="0.70187574630000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="hXc-zb-wgG">
+                                        <rect key="frame" x="161" y="3" width="52" height="38"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ary-up-0il">
+                                        <rect key="frame" x="8" y="7" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="btn_back"/>
+                                        <connections>
+                                            <action selector="onBack:" destination="qEO-7N-jvH" eventType="touchUpInside" id="osQ-VP-yJF"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="oAM-wl-0rS"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Thanks for Joining the Community!" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cKw-j9-pHg">
+                                <rect key="frame" x="77" y="153" width="221" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="6NK-ke-jAb">
+                                <rect key="frame" x="77" y="343" width="221" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="SFUIText-Light" family="SF UI Text" pointSize="24"/>
+                                <state key="normal" title="Continue">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Please check your inbox to comfirm your email address." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sn0-yS-XcY">
+                                <rect key="frame" x="77" y="219" width="221" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="RgG-Yd-hb5" firstAttribute="trailing" secondItem="rgi-6m-M1b" secondAttribute="trailing" id="WXw-TR-K38"/>
+                            <constraint firstItem="rgi-6m-M1b" firstAttribute="leading" secondItem="RgG-Yd-hb5" secondAttribute="leading" id="jza-QG-whk"/>
+                            <constraint firstItem="rgi-6m-M1b" firstAttribute="top" secondItem="RgG-Yd-hb5" secondAttribute="top" id="l0S-jm-lGa"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="RgG-Yd-hb5"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L5F-KS-noh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2058" y="44"/>
+        </scene>
+        <!--LoginVC-->
+        <scene sceneID="C6z-dQ-7PH">
+            <objects>
+                <viewController storyboardIdentifier="LoginVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="xhH-5y-8Gt" customClass="LoginVC" customModule="Trackd" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="a14-MC-AVV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FZb-oc-zY7" userLabel="viewHeader">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZdV-bg-58F">
+                                        <rect key="frame" x="0.0" y="43" width="375" height="1"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                        <color key="backgroundColor" red="0.70189809800000003" green="0.70200085639999998" blue="0.70187574630000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="L1O-7b-s22">
+                                        <rect key="frame" x="161" y="3" width="52" height="38"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uK4-Qb-PMa">
+                                        <rect key="frame" x="8" y="7" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="btn_back"/>
+                                        <connections>
+                                            <action selector="onBack:" destination="xhH-5y-8Gt" eventType="touchUpInside" id="A5G-8E-vwi"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="6q1-2e-MmU"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aqL-qw-EkN" userLabel="viewBody">
+                                <rect key="frame" x="0.0" y="72" width="375" height="595"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="79e-0j-emR">
+                                        <rect key="frame" x="30" y="18" width="316" height="48"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="btn_fblogin"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Login" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mCK-jk-GmC">
+                                        <rect key="frame" x="54" y="74" width="268" height="32"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="23"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your Email or Nickname" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cch-iY-wEn">
+                                        <rect key="frame" x="54" y="143" width="268" height="15"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="SFUIText-Light" family="SF UI Text" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="rW7-WO-UeX">
+                                        <rect key="frame" x="54" y="166" width="268" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="15"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your Password" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V04-qL-0pj">
+                                        <rect key="frame" x="54" y="204" width="268" height="15"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="SFUIText-Light" family="SF UI Text" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="Ycq-uh-igB">
+                                        <rect key="frame" x="54" y="227" width="268" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="15"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="SEs-Jb-8la">
+                                        <rect key="frame" x="54" y="547" width="268" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="12"/>
+                                        <state key="normal" title="Already have a profile? Login Now">
+                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="YlZ-Gn-ULW">
+                                        <rect key="frame" x="54" y="265" width="268" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="SFUIText-Light" family="SF UI Text" pointSize="12"/>
+                                        <state key="normal" title="Forgot Password?">
+                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="7u9-hb-6S0" kind="show" id="K7i-mv-uD0"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Email or Nickname not found!" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="57z-bz-UI4">
+                                        <rect key="frame" x="54" y="116" width="268" height="16"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="11"/>
+                                        <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="SxY-Br-8yh">
+                                        <rect key="frame" x="177" y="303" width="145" height="36"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="SFUIText-Light" family="SF UI Text" pointSize="17"/>
+                                        <state key="normal" title="Login">
+                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onLogin:" destination="xhH-5y-8Gt" eventType="touchUpInside" id="s1h-2M-WvU"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="FZb-oc-zY7" firstAttribute="leading" secondItem="dWW-WC-5TH" secondAttribute="leading" id="FDR-rs-sRf"/>
+                            <constraint firstItem="FZb-oc-zY7" firstAttribute="top" secondItem="dWW-WC-5TH" secondAttribute="top" id="QcZ-eR-Qn3"/>
+                            <constraint firstItem="aqL-qw-EkN" firstAttribute="trailing" secondItem="dWW-WC-5TH" secondAttribute="trailing" id="byE-8e-Olc"/>
+                            <constraint firstItem="aqL-qw-EkN" firstAttribute="leading" secondItem="dWW-WC-5TH" secondAttribute="leading" id="fkO-O3-h2b"/>
+                            <constraint firstItem="aqL-qw-EkN" firstAttribute="top" secondItem="FZb-oc-zY7" secondAttribute="bottom" constant="8" id="gEV-VZ-N7l"/>
+                            <constraint firstItem="dWW-WC-5TH" firstAttribute="trailing" secondItem="FZb-oc-zY7" secondAttribute="trailing" id="gsS-hU-kzx"/>
+                            <constraint firstItem="aqL-qw-EkN" firstAttribute="bottom" secondItem="dWW-WC-5TH" secondAttribute="bottom" id="icc-6J-F0L"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="dWW-WC-5TH"/>
+                    </view>
+                    <connections>
+                        <outlet property="lblError" destination="57z-bz-UI4" id="4ty-QJ-Bzd"/>
+                        <outlet property="tfEmail" destination="rW7-WO-UeX" id="u1i-Ym-ode"/>
+                        <outlet property="tfPassword" destination="Ycq-uh-igB" id="McM-5L-4do"/>
+                        <segue destination="Sbu-dZ-UcV" kind="show" identifier="segueType" id="sdv-2x-UTq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Q6-s7-Wrb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="647.82608695652175" y="811.14130434782612"/>
+        </scene>
+        <!--Forgot PasswordVC-->
+        <scene sceneID="IEM-Hc-pWB">
+            <objects>
+                <viewController storyboardIdentifier="ForgotPasswordVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="7u9-hb-6S0" customClass="ForgotPasswordVC" customModule="Trackd" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Qrr-uE-itR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tBu-Pm-zg9">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g0e-tl-Y6k">
+                                        <rect key="frame" x="0.0" y="43" width="375" height="1"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                        <color key="backgroundColor" red="0.70189809800000003" green="0.70200085639999998" blue="0.70187574630000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="iwq-hl-RUK">
+                                        <rect key="frame" x="161" y="3" width="52" height="38"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="va4-QJ-rnf">
+                                        <rect key="frame" x="8" y="7" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="btn_back"/>
+                                        <connections>
+                                            <action selector="onBack:" destination="7u9-hb-6S0" eventType="touchUpInside" id="MSL-Xc-9UE"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="qWQ-lR-Wge"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your Email or Nickname" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MUO-8k-guw">
+                                <rect key="frame" x="53" y="230" width="268" height="15"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="SFUIText-Light" family="SF UI Text" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="aWG-Yh-hlp">
+                                <rect key="frame" x="53" y="253" width="268" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="udj-EK-YZE">
+                                <rect key="frame" x="53" y="291" width="268" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">OR
+
+Your Password</string>
+                                <fontDescription key="fontDescription" name="SFUIText-Light" family="SF UI Text" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="Wd1-3v-P2C">
+                                <rect key="frame" x="53" y="358" width="268" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="kee-UZ-M0N">
+                                <rect key="frame" x="53" y="617" width="268" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="12"/>
+                                <state key="normal" title="No access to either? Contact Support.">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Email or Nickname not found!" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ur4-22-DGL">
+                                <rect key="frame" x="53" y="206" width="268" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="11"/>
+                                <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="If you signed up using email, enter your username or password below to receive a password reminder." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D2y-6n-v2m">
+                                <rect key="frame" x="53" y="143" width="268" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="SFUIText-Light" family="SF UI Text" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Forgot Password" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VH2-Tc-5qd">
+                                <rect key="frame" x="53" y="103" width="268" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="3Wj-aE-ar1">
+                                <rect key="frame" x="176" y="396" width="145" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="SFUIText-Light" family="SF UI Text" pointSize="17"/>
+                                <state key="normal" title="Submit">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="onSubmit:" destination="7u9-hb-6S0" eventType="touchUpInside" id="equ-X5-0MY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="tBu-Pm-zg9" firstAttribute="leading" secondItem="Cc2-3a-VtE" secondAttribute="leading" id="QbU-gp-3zJ"/>
+                            <constraint firstItem="tBu-Pm-zg9" firstAttribute="top" secondItem="Cc2-3a-VtE" secondAttribute="top" id="YC3-be-BAb"/>
+                            <constraint firstItem="Cc2-3a-VtE" firstAttribute="trailing" secondItem="tBu-Pm-zg9" secondAttribute="trailing" id="f3X-X8-gIX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Cc2-3a-VtE"/>
+                    </view>
+                    <connections>
+                        <outlet property="lblError" destination="Ur4-22-DGL" id="NFz-VE-9U1"/>
+                        <outlet property="tfEmail" destination="aWG-Yh-hlp" id="11r-AD-W3X"/>
+                        <outlet property="tfPassword" destination="Wd1-3v-P2C" id="hWf-d0-2Oe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WRb-9J-2mi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1358" y="812"/>
+        </scene>
+        <!--TermsVC-->
+        <scene sceneID="aBW-ia-h03">
+            <objects>
+                <viewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y3i-y2-WbW" customClass="TermsVC" customModule="Trackd" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YHo-Vp-Q0E">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pvS-Pq-Oj3">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="puE-TI-f1j">
+                                        <rect key="frame" x="0.0" y="43" width="375" height="1"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                        <color key="backgroundColor" red="0.70189809800000003" green="0.70200085639999998" blue="0.70187574630000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="ZK2-g3-hK0">
+                                        <rect key="frame" x="161" y="3" width="52" height="38"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZiX-ND-jY6">
+                                        <rect key="frame" x="8" y="7" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="btn_back"/>
+                                        <connections>
+                                            <action selector="onBack:" destination="Y3i-y2-WbW" eventType="touchUpInside" id="odY-xo-f1h"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="C6L-B4-D5X"/>
+                                </constraints>
+                            </view>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cv6-eU-uEI">
+                                <rect key="frame" x="16" y="146" width="343" height="501"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">The following ‘Terms of Service’ are a binding contractual commitment. We recommend reading it in full before using our service, but the most important point is this: your safety is our top priority. For your safety, we reserve to right to remove any user for a number of reasons, but most importantly if we believe they are acting inappropriately or misrepresenting themselves. If someone has made you uncomfortable for any reason, please report them to our customer support team, either via the app or by emailing hello@The App.co. Our support team is there to help make your experience as enjoyable and comfortable as possible. 
+
+While we do our very best to monitor the The App community, remember to always use your best judgement when interacting with people on or off the app. Our app is only as good as our people, and we rely on you to keep The App a safe and welcoming place for all.
+
+INTRODUCTION
+This Terms of Service agreement (the “Terms”) governs your use of the mobile software application known as “The App” (the “App”) (collectively, the functionality provided by the Website and App referred to as the “Service”). 
+
+Please read these Terms carefully. By accessing, browsing or using the website or service, completing the registration process, and/or downloading the app, you represent (1) that you have attained the legal age that is statutorily required under the laws of the country in which you reside to form a binding contract with The App, (2) you have the authority to enter into the Terms of Use personally or on behalf of the company you represent; and (3) that you consent to your personal data being collected, stored, processed or transferred in the manner provided for in these terms and as per the Privacy Policy. If you do not agree to be bound by these Terms, you may not access or use the website, app or services. 
+
+Please note these Terms include a class action waiver and a waiver of jury trials, and require binding arbitration on an individual basis to resolve disputes.
+
+1. ACCOUNTS
+Registration. In order to access certain features of the Services, you may be required register for an account (“Account”). If you access the Services through a social networking site, such as Facebook (each, an “SNS”), as part of the functionality of the Services, you may link your Account with SNS account (“SNS Account”), by allowing The App to access your SNS Account, as is permitted under the applicable terms and conditions that govern your use of each SNS Account. You represent that you are entitled to disclose your SNS Account login information to The App and/or grant The App access to your SNS Account (including, but not limited to, for the purposes described here) without breach by you of any of the terms and conditions that govern your use of the applicable SNS Account and without obligating The App to pay any fees or making The App subject to any usage limitations imposed by such third-party service providers. By granting The App access to any SNS Accounts, you understand that The App may access, make available, and store (if applicable) any information, data, or content stored in your SNS Account that you make available to the The App service. Depending on the SNS Accounts you choose and subject to the privacy settings that you have in such SNS Accounts, personally identifiable information that you post to your SNS Accounts may be available on and through your Account on the Services. Please note that your relationship with the third-party service providers associated with your SNS Accounts is governed solely by your agreement(s) with such third-party service providers, and The App disclaims any liability for personally identifiable information that may be provided to it by such third-party service providers in violation of the privacy settings that you have set in such third-party accounts. The App makes no effort to review any SNS Content for any purpose, including but not limited to, for accuracy, legality or non-infringement, and The App is not responsible for any SNS Content. 
+
+Registration Data. In registering for the Services, you agree to (1) provide true, accurate, current, and complete information about yourself as prompted by the Services’ registration form (the “Registration Data”); and (2) maintain and promptly update the Registration Data to keep it true, accurate, current, and complete. You are responsible for all activities that occur under your Account. You may not share your Account or password with anyone, and you agree to notify The App immediately of any unauthorized use of your password or any other breach of security. If you provide any information that is untrue, inaccurate, not current or incomplete, or The App has reasonable grounds to suspect that such information is untrue, inaccurate, not current or incomplete, The App has the right to suspend or terminate your Account and refuse any and all current or future use of the Service (or any portion thereof). The App reserves the right to remove or reclaim any usernames at any time and for any reason, including but not limited to, claims by a third party that a username violates the third party’s rights. You agree not to create an Account or use the Service if you have been previously removed by The App, or if you have been previously banned from any The App Properties (as defined below).
+
+2. LICENSE &amp; OWNERSHIP
+License. The App grants you a personal, revocable, limited, non-transferable license to use the features and functions of the Website and Service to reproduce and use the App on your mobile device solely for your own personal use. Furthermore, with respect to any App accessed through or downloaded from the Apple App Store, Google Chrome Web Store, Google Play marketplace, or any similar store or marketplace (each, an “App Store” and references to an App Store include the corporate entity and its subsidiaries making such App Store available to you), you agree to comply with all applicable third party terms of the relevant App Store (e.g., Apple App’s Stores “Usage Rules”) (the “Usage Rules”) when using the App. All updates and upgrades to the App will be governed by the version of these Terms published by The App as of the date you install such update or upgrade. You agree, however, that we are not obligated to create or provide any support, corrections, updates, upgrades, bug fixes, and/or enhancements of the App or for the Service. 
+
+Ownership. Unless otherwise noted, the Website, App and Service (collectively, the “The App Properties”) and all text, content, and documents on the The App Properties, any names, logos, trademarks, service marks, brand identities, characters, trade names, graphics, designs, copyrights, trade dress, or other intellectual property appearing therein used to operate The App Properties, and the organization, compilation, look and feel, illustrations, artwork, videos, music, software, and other works on The App Properties (collectively, the “Content”) are owned by The App (or its affiliates) or used with permission or under license from a third party (each an “Owner”), and are protected under copyright, trademark, and other intellectual property and proprietary rights laws. As between The App and you, all right, title, and interest in and to the Content will at all times remain with The App and/or the Owners. All brand names, product names, titles, slogans, logos, or service names and other marks used on the Website, App or Service, are registered and/or common law trade names, trademarks, or service marks of The App or the applicable Owner. 
+
+License to Your Content. The App does not claim ownership of any content, images, videos, text, or other materials you upload to the Service (“Your Content”). You grant The App a non-exclusive, fully paid, perpetual, irrevocable, worldwide, royalty-free, and fully sublicensable right (including any moral rights) and license to use, license, distribute, reproduce, modify, digitally transmit, publicly perform, and publicly display, Your Content (in whole or in part) for any commercial and/or business purpose whatsoever, including for the purpose of operating and providing The App Properties to you and to our other end-users. For the purposes of clarity, you may use Your Content solely for your own personal, non-professional purposes. You warrant that the holder of any worldwide intellectual property right, including moral rights, in Your Content, has completely and effectively waived all such rights and validly and irrevocably granted to you the right to grant the license stated above. You agree that you, not The App, are responsible for all of Your Content that you make available on or in The App Properties. 
+
+Your Profile. Your Content posted by you in your profile may not contain nudity, violence, sexually explicit, or offensive subject matter. You may not post or submit for print services a photograph of another person without that person’s permission. 
+
+Feedback. You agree that submission of any ideas, suggestions, documents, and/or proposals to The App through its suggestion, feedback, wiki, forum or similar pages (“Feedback”) is at your own risk and that The App has no obligations (including without limitation obligations of confidentiality) with respect to such Feedback. You represent and warrant that you have all rights necessary to submit the Feedback. You hereby grant to The App a fully paid, royalty-free, perpetual, irrevocable, worldwide, non-exclusive, and fully sublicensable right and license to use, reproduce, perform, display, distribute, adapt, modify, re-format, create derivative works of, and otherwise commercially or non-commercially exploit in any manner, any and all Feedback, and to sublicense the foregoing rights, in connection with the operation and maintenance of the The App Properties.
+
+3. USE &amp; RESTRICTIONS
+You are permitted to use The App Properties and/or the Content and/or for lawful purposes as provided in these Terms only. You will not, without The App’s express written consent: (i) copy, retransmit, modify, disseminate, sell, exploit, display, perform, reuse, re-post, broadcast, circulate, or otherwise distribute any part of the Content, in each case for any purpose other than for which The App Properties are being provided to you; (ii) use The App Properties to conduct or promote any illegal activities; (iii) attempt to reverse engineer or jeopardize the correct functioning of The App Properties, or otherwise attempt to derive the source code of the software (including the tools, methods, processes, and infrastructure) that enables or underlies The App Properties; (iv) attempt to gain access to secured portions of The App Properties to which you do not possess access rights; (v) use The App Properties to generate unsolicited email advertisements or spam; (vi) use The App Properties to stalk, harass or harm another individual; (vii) use any high volume automatic, electronic, or manual process to access, search, or harvest information from The App Properties (including without limitation robots, spiders or scripts); (viii) interfere in any way with the proper functioning of The App Properties, or interfere with or disrupt any servers or networks connected to The App Properties, or disobey any requirements, procedures, policies or regulations of networks connected to The App Properties; (ix) use any robot, spider, other automatic device, or manual process to extract, “screen scrape,” monitor, “mine,” or copy any static or dynamic web page on The App Properties or the Content contained on any such web page for commercial use without our prior express written permission; (x) impersonate any person or entity, or otherwise misrepresent your affiliation with a person or entity; (xi) mirror or frame The App Properties or any Content, place pop-up windows over its pages, or otherwise affect the display of its pages; (xii) use any trade name, trademark, or brand name of ours in metatags, keywords and/or hidden text; (xiii) create derivative works from the Content or commercially exploit any part of the Content in any way; (xiv) use any portion of a The App Properties or the Content in any manner that may give a false or misleading impression, attribution or statement as to us, the Owner or any other third party; or (xv) alter, remove or obscure any copyright notice, digital watermarks, proprietary legends or any other notice included in the Content. 
+
+The App reserves all other rights not expressly granted herein. Except as expressly provided herein, nothing on The App Properties will be construed as conferring any license under The App’s and/or its Owner’s intellectual property rights, whether by estoppel, implication or otherwise. Notwithstanding anything herein to the contrary, The App may revoke any of the foregoing rights and/or your access to The App Properties, or any part thereof, including the blocking of your IP Address, at any time without prior notice.
+
+4. POSTING GUIDELINES
+The Service includes various areas that enable you to post information, provide feedback, recommendations, reviews, and comments, and otherwise interact with other users, either through postings or by interacting in real time (together with The App relevant sections of the social media sites, the “Community Forums”). With respect to any and all Community Forums, the following restrictions and obligations apply: 
+
+The App will have the right, but not the obligation, to monitor or review any Community Forum at any time for any readily apparent violation of these Terms or illegal content. The App is under no obligation to edit or modify any information available in a Community Forum or decide any dispute or disagreement between posters and will have no liability to you for any content posted in a Community Forum. You acknowledge that any opinions, statements, recommendations, offers, advice or other information presented or disseminated on the Community Forums are those of their respective authors who are solely responsible and liable for their content. The App reserves the right, in its sole discretion, to refuse to post or remove any material submitted or posted on the Community Forums and terminate your access and usage rights to the The App Properties. You are expressly prohibited from submitting any of the following types of content in any Community Forum: 
+
+Any content that is harmful (including harmful to minors), unlawful, libelous, defamatory, obscene, pornographic, indecent, lewd, racially or ethnically offensive, suggestive, harassing, threatening, blasphemous; pedophilic, hateful, disparaging, relating or encouraging money laundering or gambling, invasive of privacy or publicity rights, abusive, inflammatory, fraudulent or otherwise objectionable; 
+
+Any content that would constitute, encourage, or provide instructions for a criminal offense, violate the rights of any party, or that would otherwise create liability or violate any local, state, national, or international law, including, without limitation, material that depicts child-pornography, acts of violence, or drug use; 
+
+Any content that may infringe any patent, trademark, trade secret, copyright, or other intellectual or proprietary right of any party; 
+
+Unsolicited promotions, political campaigning, advertising or solicitations; personal or personally identifiable information of any third party; viruses, spyware, trojans, corrupted data or any other harmful, disruptive or other destructive files, code, or programs designed to interrupt, destroy or limit the functionality of any computer resource; or any content that in our sole judgment is inappropriate or objectionable or which restricts or inhibits any other person from using or enjoying the Website, or which may expose The App or any Owners or other users to any harm or liability of any type.
+
+5. INTERACTIONS WITH OTHER USERS
+User Responsibility. You are solely responsible for your interactions with other users of the Services and any other parties with whom you interact through the Services; provided, however, that The App reserves the right, but has no obligation, to intercede in such disputes. You agree that The App will not be responsible for any liability incurred as a result of such interactions. You understand that The App does not currently conduct criminal background checks on its users or attempt to verify the statements of its users. The App makes no representations or warranties as to the conduct of the users or their compatibility with any current or future users. The App reserves the right to conduct any criminal background checks or other screenings (such as sex offender register searches) at any time and using available public resources. 
+
+Content Provided by Other Users. The The App Properties may contain content provided by other users (“User Content”). We make an effort to moderate profile content, but The App is not responsible for and does not control User Content, including the accuracy or completeness of any user’s profile information. You use all User Content and interact with other users at your own risk. In connection with the Services, we have adopted and implemented a policy that provides for the review and removal of Prohibited Content which has been reported to us. As part of that policy, we may suspend and/or terminate users who upload Prohibited Content. If you believe that one or our users is, through the use of our Service, uploading or displaying Prohibited Content, please contact Support.
+6. TERRITORIAL LIMITATIONS
+By using the Service, you agree and acknowledge that it is hosted in the United States. If you are attempting to access the Service from a physical location within the European Union, Asia, or any other region with laws or regulations governing personal data collection, use, and disclosure that differ from United States laws, please be advised that through your continued use of this Website, which is governed by U.S. law, these Terms, and The App Privacy Policy, you are transferring your personal information to the United States and you consent to (1) such transfer, (2) the application of the laws of the United States and/or the State of New York with respect to any dispute arising from or related to the Privacy Policy and/or your use of The App Properties, other than such rules, regulations, case law, and/or international treaties that would result in the application of the laws of a jurisdiction other than the United States or the State of New York, and (c) the exclusive jurisdiction of the courts of the United States and the State of New York. Any claim or dispute between you and The App that arises in whole or in part from your use of the Website or in connection with the Privacy Policy will be decided exclusively by a court of competent jurisdiction located in New York County, New York, U.S.A. Each party hereby agrees that such court will have in personam jurisdiction and venue with respect to such party, and each party hereby submits to the in personam jurisdiction and venue of such courts and waives any objection based on inconvenient forum.
+
+7. DISCLAIMERS
+The The App Properties and all other features on the Service are provided to you “as is” and “as available” without warranty of any kind with respect to the The App Properties and/or content, either express or implied, including but not limited to, fitness for a particular purpose, title, or non-infringement. Should applicable law not permit the foregoing exclusion of express or implied warranties, then The App hereby grants the minimum express or implied warranty required by such applicable law. No advice or information, whether oral or written, obtained by you from The App, its employees, agents, suppliers, or any other persons will create any warranty, representation or guarantee not expressly stated in this section. additionally, The App does not make any warranties that the service will be uninterrupted, secure or error free or that your use of the service will meet your expectations, or that the The App Properties, content, or any portion thereof, is correct, accurate, or reliable. The App reserves the right to change any part of the The App Properties at any time without notice.
+
+8. LIMITATIONS OF LIABILITY
+Your use of the The App Properties is at your own risk. Neither The App, its affiliates, nor any of their respective officers, directors, agents, or other representatives will be liable for any damages, direct, indirect, incidental, consequential, special, or punitive, including, without limitation, loss of data, income, profit, or goodwill, loss of or damage to property and claims of third parties arising out of your access to or use of the The App properties or arising out of any action taken in response to or as a result of any content or other information available on the The App properties, however caused, whether based on breach of contract, tort (including negligence), proprietary rights infringement, product liability or otherwise. The foregoing will apply even if The App was advised of the possibility of such damages. If you become dissatisfied in any way with the The App properties, these terms, or its privacy policy, your sole and exclusive remedy is to stop your use of the The App properties. You hereby waive any and all claims against The App and its affiliates, agents, representatives, and licensors arising out of your use of the The App properties. Because some states do not allow the disclaimer of implied warranties or the exclusion or limitation of certain types of damages, these provisions may not apply to you. If any portion of this limitation on liability is found to be invalid or unenforceable for any reason, then the aggregate liability of The App and its affiliates will not exceed one hundred dollars ($100.) The limitation of liability herein is a fundamental element of the basis of the bargain and reflects a fair allocation of risk.
+
+9. DIGITAL MILLENIUM COPYRIGHT ACT
+The App is committed to respecting and protecting the legal rights of copyright owners. As such, The App adheres to the following notice and take-down policy, in full compliance with Section 512(c)(3) of the DMCA (17 U.S.C. § 512 et seq.). If you believe any of the Content infringes upon your intellectual property rights, please submit a notification alleging such infringement (hereafter a “DMCA Takedown Notice”). To be valid, a DMCA Takedown Notice must (i) be provided to The App’s designated agent, (“Copyright Agent”), as set forth below, and (ii) include the following: 
+
+A physical or electronic signature of a person authorized to act on behalf of the owner of an exclusive right that is allegedly infringed; identification of the copyrighted work claimed to have been infringed, or, if multiple copyrighted works at a single online site are covered by a single notification, a representative list of such works; identification of the material claimed to be infringing or to be the subject of infringing activity and that is to be removed or access disabled and information reasonably sufficient to permit the service provider to locate the material; Information reasonably sufficient to permit the service provider to contact you, such as an address, telephone number, and, if available, an electronic mail; A statement that you have a good faith belief that use of the material in the manner complained of is not authorized by the copyright owner, its agent, or the law; and a statement that, under penalty of perjury, the information in the notification is accurate and you are authorized to act on behalf of the owner of the exclusive right that is allegedly infringed. The App’s Copyright Agent to receive DMCA Takedown Notices is: email: hello@The App.co.
+
+10. CHANGES TO THESE TERMS
+Please note that the Terms are subject to change by The App in its sole discretion at any time. When changes are made, The App will make a new copy of the Terms available at the Website and within the App. We will also update the “Last Updated” date at the bottom of these Terms. If we make any material changes, and you have registered with us to create an Account, we will also send an e-mail to you at the last e-mail address you provided to us pursuant to the Terms. If you do not agree to any change(s) after receiving a notice of such change(s), you will stop using The App Properties. Otherwise, your continued use of The App Properties constitutes your acceptance of such change(s).
+
+11. TERMINATION
+The App may cancel, suspend or block your use of The App Properties without notice if there has been a violation (or suspected possible violation) of these Terms, as determined by The App in its sole discretion. Your right to use The App Properties will end once your registration is terminated, and any data you have stored on the Service may be unavailable later, unless The App is required to retain it by law. You may terminate your registration at any time. The App is not responsible or liable for any records or information made unavailable to you as a result of your termination of registration. You agree that The App will not be liable to you or any other party for any termination of your access to the website, app, or service. Any limitations on liability that favor The App will survive the expiration or termination of these Terms for any reason.
+
+12. ARBITRATION AGREEMENT; CLASS WAIVER OF TRIAL BY JURY:
+Please read this Arbitration Agreement carefully. It is part of your contract with The App and affects your rights. It contains procedures for mandatory binding arbitration and a class action waiver. 
+
+Applicability of Arbitration Agreement. All claims and disputes (excluding claims for injunctive or other equitable relief as set forth below) in connection with the Terms or the use of any product or service provided by The App that cannot be resolved informally or in small claims court shall be resolved by binding arbitration on an individual basis under the terms of this Arbitration Agreement. This Arbitration Agreement applies to you and The App, and to any subsidiaries, affiliates, agents, employees, predecessors in interest, successors, and assigns, as well as all authorized or unauthorized users or beneficiaries of services or goods provided under the Terms. 
+
+Notice Requirement and Informal Dispute Resolution. Before either party may seek arbitration, the party must first send to the other party a written Notice of Dispute (“Notice”) describing the nature and basis of the claim or dispute, and the requested relief. A Notice to The App should be sent to: hello@The App.co. After the Notice is received, you and The App may attempt to resolve the claim or dispute informally. If you and The App do not resolve the claim or dispute within 30 days after the Notice is received, either party may begin an arbitration proceeding. The amount of any settlement offer made by any party may not be disclosed to the arbitrator until after the arbitrator has determined the amount of the award, if any, to which either party is entitled. 
+
+Arbitration Rules. Arbitration shall be initiated through the American Arbitration Association (“AAA”), an established alternative dispute resolution provider (“ADR Provider”) that offers arbitration as set forth in this section. If AAA is not available to arbitrate, the parties shall agree to select an alternative ADR Provider. The rules of the ADR Provider shall govern all aspects of this arbitration, including but not limited to the method of initiating and/or demanding arbitration, except to the extent such rules are in conflict with the Terms. The AAA Consumer Arbitration Rules governing the arbitration are available online at www.adr.org or by calling the AAA at 1-800-778-7879. The arbitration shall be conducted by a single, neutral arbitrator. Any claims or disputes where the total amount of the award sought is less than Ten Thousand U.S. Dollars (US $10,000.00) may be resolved through binding non-appearance-based arbitration, at the option of the party seeking relief. For claims or disputes where the total amount of the award sought is Ten Thousand U.S. Dollars (US $10,000.00) or more, the right to a hearing will be determined by the Arbitration Rules. Any hearing will be held in a location within 100 miles of your residence, unless you reside outside of the United States, and unless the parties agree otherwise. Any judgment on the award rendered by the arbitrator may be entered in any court of competent jurisdiction. Each party shall bear its own costs (including attorney’s fees) and disbursements arising out of the arbitration, and shall pay an equal share of the fees and costs of the ADR Provider. 
+
+Additional Rules for Non-appearance Based Arbitration: If non-appearance arbitration is elected, the arbitration shall be conducted by telephone, online, and/or based solely on written submissions; the specific manner shall be chosen by the party initiating the arbitration. The arbitration shall not involve any personal appearance by the parties or witnesses unless otherwise mutually agreed by the parties. 
+
+Time Limits. If you or The App pursue arbitration, the arbitration action must be initiated and/or demanded within the statute of limitations (i.e., the legal deadline for filing a claim) and within any deadline imposed under the AAA Rules for the pertinent claim. 
+
+Authority of Arbitrator. If arbitration is initiated, the arbitrator will decide the rights and liabilities, if any, of you and The App, and the dispute will not be consolidated with any other matters or joined with any other cases or parties. The arbitrator shall have the authority to grant motions dispositive of all or part of any claim. The arbitrator shall have the authority to award monetary damages and to grant any non-monetary remedy or relief available to an individual under applicable law, the AAA Rules, and the Terms. The arbitrator shall issue a written award and statement of decision describing the essential findings and conclusions on which the award is based, including the calculation of any damages awarded. The arbitrator has the same authority to award relief on an individual basis that a judge in a court of law would have. The award of the arbitrator is final and binding upon you and The App. 
+
+Waiver of Jury Trial. The parties hereby waive their constitutional and statutory rights to go to court and have a trial in front of a judge or a jury, instead electing that all claims and disputes shall be resolved by arbitration under this Arbitration Agreement. Arbitration procedures are typically more limited, more efficient, and less costly than rules applicable in court and are subject to very limited review by a court. In the event any litigation should arise between you and The App in any state or federal court in a suit to vacate or enforce an arbitration award or otherwise, you and The App waive all rights to a jury trial, instead electing that the dispute be resolved by a judge. 
+
+Waiver of Class or Consolidated Actions. All claims and disputes within the scope of this arbitration agreement must be arbitrated or litigated on an individual basis and not on a class basis, and claims of more than one customer or user cannot be arbitrated or litigated jointly or consolidated with those of any other customer or user. 
+
+Confidentiality. All aspects of the arbitration proceeding, including but not limited to the award of the arbitrator and compliance therewith, shall be strictly confidential. The parties agree to maintain confidentiality unless otherwise required by law. This Section shall not prevent a party from submitting to a court of law any information necessary to enforce this Agreement, to enforce an arbitration award, or to seek injunctive or equitable relief. You have the right to opt out of the provisions of this Arbitration Agreement by sending written notice of your decision to opt out to the following address at The App, Inc., 508 LaGuardia Pl, New York, NY 10012, or email address at hello@The App.co within 30 days after first becoming subject to this Arbitration Agreement. Your notice must include your name and address, the email address you used to set up your Account (if you have one), and an unequivocal statement that you want to opt out of this Arbitration Agreement. If you opt out of this Arbitration Agreement, all other parts of this Agreement will continue to apply to you. Opting out of this Arbitration Agreement has no effect on any other arbitration agreements that you may currently have, or may enter into in the future, with us. 
+
+Severability. If any part or parts of this Arbitration Agreement are found under the law to be invalid or unenforceable by a court of competent jurisdiction, then such specific part or parts shall be of no force and effect and shall be severed and the remainder of the Agreement shall continue in full force and effect. 
+
+Right to Waive. Any or all of the rights and limitations set forth in this Agreement may be waived by the party against whom the claim is asserted. Such waiver shall not waive or affect any other portion of this Agreement. 
+
+Survival of Agreement. This Arbitration Agreement will survive the termination of your relationship with The App. 
+
+Small Claims Court. Notwithstanding the foregoing, either you or The App may bring an individual action in small claims court. 
+
+Emergency Equitable Relief. Notwithstanding the foregoing, either party may seek emergency equitable relief before a state or federal court in order to maintain the status quo pending arbitration. A request for interim measures shall not be deemed a waiver of any other rights or obligations under this Arbitration Agreement. 
+
+Claims Not Subject to Arbitration. Notwithstanding the foregoing, claims of defamation, violation of the Computer Fraud and Abuse Act, and infringement or misappropriation of the other party’s patent, copyright, trademark, or trade secret shall not be subject to this arbitration agreement. 
+
+Courts. In any circumstances where the foregoing Agreement permits the parties to litigate in court, the parties hereby agree to submit to the personal jurisdiction of the courts located within New York County, New York, for such purpose.
+
+13. GOVERNING LAW
+The Terms and any action related thereto will be governed and interpreted by and under the laws of the State of New York, consistent with the Federal Arbitration Act, without giving effect to any principles that provide for the application of the law of another jurisdiction. The United Nations Convention on Contracts for the International Sale of Goods does not apply to this Agreement.
+
+14. APPLICATION STORE ADDITIONAL TERMS &amp; CONDITIONS
+The following additional terms and conditions apply to you if you are using an App from an App Store. To the extent the other terms and conditions of this Agreement are less restrictive than, or otherwise conflict with, the terms and conditions of this Section, the more restrictive or conflicting terms and conditions in this Section apply, but solely with respect to Apps from an App Store. 
+
+Acknowledgement. The App and you acknowledge that this Agreement is concluded between The App and you only, and not with the App Store, and The App, not the App Store, is solely responsible for App and the content thereof. To the extent this Agreement provides for usage rules for App that are less restrictive than the Usage Rules set forth for App in, or otherwise is in conflict with, the Application Store Terms of Service, the more restrictive or conflicting App Store term applies, as applicable. 
+
+Scope of License. The license granted to you for App is limited to a non-transferable license to use App on either an iOS or Android device that you own or control and as permitted by the Usage Rules. 
+
+Maintenance and Support. The App is solely responsible for providing any maintenance and support services with respect to App, as specified in this Agreement (if any), or as required under applicable law. The App and you acknowledge that the App Store has no obligation whatsoever to furnish any maintenance and support services with respect to App. 
+
+Warranty. The App is solely responsible for any product warranties, whether express or implied by law, to the extent not effectively disclaimed. In the event of any failure of App to conform to any applicable warranty, you may notify the App Store, and the App Store may refund the purchase price for App to you; and to the maximum extent permitted by applicable law, the App Store will have no other warranty obligation whatsoever with respect to App, and any other claims, losses, liabilities, damages, costs, or expenses attributable to any failure to conform to any warranty will be The App’s sole responsibility. 
+
+Product Claims. The App and you acknowledge that the App Store is not responsible for addressing any claims made by you or any third party relating to App or your possession and/or use of App, including, but not limited to: (i) product liability claims; (ii) any claim that App fails to conform to any applicable legal or regulatory requirement; and (iii) claims arising under consumer protection or similar legislation. This Agreement does not limit The App’s liability to you beyond what is permitted by applicable law. 
+
+Intellectual Property Rights. The App and you acknowledge that, in the event of any third party claim that App or your possession and use of App infringes that third party’s intellectual property rights, The App, not the App Store, will be solely responsible for the investigation, defense, settlement and discharge of any such intellectual property infringement claim. 
+
+Legal Compliance. You represent and warrant that (i) you are not located in a country that is subject to a U.S. Government embargo, or that has been designated by the U.S. Government as a “terrorist supporting” country; and (ii) you are not listed on any U.S. Government list of prohibited or restricted parties. 
+
+Developer Name and Address. The App’s contact information for any end-user questions, complaints, or claims with respect to App is set forth below. 
+
+Third Party Terms of Agreement. You must comply with applicable third party terms of agreement when using App. 
+
+Third Party Beneficiary. You agree that the App Store provider (and its subsidiaries) is a third party beneficiary of this Agreement and will have the right to enforce this Agreement.
+
+EXPORT CONTROL
+You may not use, export, import, or transfer the The App Properties except as authorized by U.S. law, the laws of the jurisdiction in which you obtained the The App Properties, and any other applicable laws. In particular, but without limitation, the The App Properties may not be exported or re-exported (a) into any United States embargoed countries, or (b) to anyone on the U.S. Treasury Department’s list of Specially Designated Nationals or the U.S. Department of Commerce’s Denied Person’s List or Entity List. By using the The App Properties, you represent and warrant that (i) you are not located in a country that is subject to a U.S. Government embargo, or that has been designated by the U.S. Government as a “terrorist supporting” country and (ii) you are not listed on any U.S. Government list of prohibited or restricted parties. You acknowledge and agree that products, services or technology provided by The App are subject to the export control laws and regulations of the United States. You shall comply with these laws and regulations and shall not, without prior U.S. government authorization, export, re-export, or transfer The App’s products, services or technology, either directly or indirectly, to any country in violation of such laws and regulations.
+
+16. NOTICES &amp; AGREEMENT TO BE BOUND BY ELECTRONIC SIGNATURE
+The communications between you and The App use electronic means, whether you visit The App Properties or send The App e-mails, or whether The App posts notices on The App Properties or communicates with you via e-mail. For contractual purposes, you (1) consent to receive communications from The App in an electronic form; and (2) agree that all terms and conditions, agreements, notices, disclosures, and other communications that The App provides to you electronically satisfy any legal requirement that such communications would satisfy if it were to be in writing. The foregoing does not affect your statutory rights.
+
+MISCELLANEOUS
+These Terms, and any rights and licenses granted hereunder, may not be transferred or assigned by you, but may be assigned by The App without restriction. The App’s failure to enforce any provision of these Terms will not be deemed a waiver of such provision nor of the right to enforce such provision. If any part of these Terms is determined to be invalid or unenforceable pursuant to applicable law, including, but not limited to, the warranty disclaimers and liability limitations set forth above, then the invalid or unenforceable provision will be deemed superseded by a valid, enforceable provision that most closely matches the intent of the original provision and the remainder of these Terms will continue in effect. A printed version of these Terms and of any notice given in electronic form will be admissible in judicial or administrative proceedings based upon or relating to these Terms to the same extent and subject to the same conditions as other business documents and records originally generated and maintained in printed form. All contracts completed electronically will be deemed for all legal purposes to be in writing and legally enforceable as a signed writing.
+
+QUESTIONS, COMPLAINTS, CLAIMS
+If you have any questions, complaints or claims with respect to The App Properties, please contact our Support Department.</string>
+                                <fontDescription key="fontDescription" name="SFUIText-Semibold" family="SF UI Text" pointSize="12"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Terms and Conditions" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oWE-xO-j3H">
+                                <rect key="frame" x="53" y="106" width="268" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="SFUIText-Semibold" family="SF UI Text" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="pvS-Pq-Oj3" firstAttribute="top" secondItem="AId-Sd-ncB" secondAttribute="top" id="oRa-Hc-yAU"/>
+                            <constraint firstItem="pvS-Pq-Oj3" firstAttribute="leading" secondItem="AId-Sd-ncB" secondAttribute="leading" id="rNW-mw-MfZ"/>
+                            <constraint firstItem="AId-Sd-ncB" firstAttribute="trailing" secondItem="pvS-Pq-Oj3" secondAttribute="trailing" id="wly-82-e3D"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="AId-Sd-ncB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z3U-ni-MOd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2056.8000000000002" y="810.94452773613204"/>
+        </scene>
+        <!--User TypeVC-->
+        <scene sceneID="OW9-c4-sTr">
+            <objects>
+                <viewController storyboardIdentifier="UserTypeVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Sbu-dZ-UcV" customClass="UserTypeVC" customModule="Trackd" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nQ0-NC-VZ9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b1D-tO-BFf">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sL2-89-lQy">
+                                        <rect key="frame" x="0.0" y="43" width="375" height="1"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                        <color key="backgroundColor" red="0.70189809800000003" green="0.70200085639999998" blue="0.70187574630000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="MSS-Qh-Zyc">
+                                        <rect key="frame" x="161" y="3" width="52" height="38"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dYj-QB-vXJ">
+                                        <rect key="frame" x="8" y="7" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="btn_back"/>
+                                        <connections>
+                                            <action selector="onBack:" destination="Sbu-dZ-UcV" eventType="touchUpInside" id="7FZ-B5-kvG"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="lPn-Ue-epP"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="cOB-2v-dow">
+                                <rect key="frame" x="53" y="617" width="268" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="12"/>
+                                <state key="normal" title="Remember my choice">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What do you want to do?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SH1-VO-4Ea">
+                                <rect key="frame" x="53" y="98" width="268" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="SFUIDisplay-Regular" family="SF UI Display" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="type_bg" translatesAutoresizingMaskIntoConstraints="NO" id="Q83-yq-FiC">
+                                <rect key="frame" x="40" y="156" width="294" height="176"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k4x-sQ-Iyf">
+                                <rect key="frame" x="59" y="253" width="256" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.64328390359999998" blue="0.065330743790000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="17"/>
+                                <state key="normal" title="DISCOVER">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="WYM-9a-j3Z" kind="show" id="tuh-Lv-X6l"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Discover amazing new music by our owesome community." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DFu-XK-iPT">
+                                <rect key="frame" x="77" y="190" width="221" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="SFUIText-Light" family="SF UI Text" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="type_disc" translatesAutoresizingMaskIntoConstraints="NO" id="yhx-OL-UyO">
+                                <rect key="frame" x="165" y="137" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="type_bg" translatesAutoresizingMaskIntoConstraints="NO" id="kiq-jh-c95">
+                                <rect key="frame" x="40" y="359" width="294" height="176"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yxd-9r-8fL">
+                                <rect key="frame" x="59" y="456" width="256" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.68627450980392157" blue="0.86274509803921573" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="17"/>
+                                <state key="normal" title="CREATE">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="lRl-ut-GiU" kind="show" id="5Ku-jU-xxd"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Jump into the studio and get recording music and lyrics!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xrr-wv-6za">
+                                <rect key="frame" x="77" y="393" width="221" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="SFUIText-Light" family="SF UI Text" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="type_mic" translatesAutoresizingMaskIntoConstraints="NO" id="7oc-Gl-gfu">
+                                <rect key="frame" x="172" y="347" width="30" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="b1D-tO-BFf" firstAttribute="top" secondItem="Xxp-3d-U8H" secondAttribute="top" id="DCm-Xr-F7p"/>
+                            <constraint firstItem="Xxp-3d-U8H" firstAttribute="trailing" secondItem="b1D-tO-BFf" secondAttribute="trailing" id="DMG-83-F5k"/>
+                            <constraint firstItem="b1D-tO-BFf" firstAttribute="leading" secondItem="Xxp-3d-U8H" secondAttribute="leading" id="Hx7-Gx-aee"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Xxp-3d-U8H"/>
+                    </view>
+                    <connections>
+                        <outlet property="btnCreate" destination="Yxd-9r-8fL" id="9Gc-En-FXn"/>
+                        <outlet property="btnDiscover" destination="k4x-sQ-Iyf" id="mFD-fd-Pw7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sfW-b8-Txt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="649" y="1563"/>
+        </scene>
+        <!--Select GenreVC-->
+        <scene sceneID="Xvi-RX-aSP">
+            <objects>
+                <viewController storyboardIdentifier="SelectGenreVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="WYM-9a-j3Z" customClass="SelectGenreVC" customModule="Trackd" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="74J-bT-UeU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KSq-ww-8j8">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mlz-1h-Y6t">
+                                        <rect key="frame" x="0.0" y="43" width="375" height="1"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                        <color key="backgroundColor" red="0.70189809800000003" green="0.70200085639999998" blue="0.70187574630000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="pxs-fL-qVY">
+                                        <rect key="frame" x="161" y="3" width="52" height="38"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bhc-8l-6C3">
+                                        <rect key="frame" x="8" y="7" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="btn_back"/>
+                                        <connections>
+                                            <action selector="onBack:" destination="WYM-9a-j3Z" eventType="touchUpInside" id="nCH-RD-n6J"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="J20-mI-wz2"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Select your Music Taste" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WWA-Jf-sDH">
+                                <rect key="frame" x="0.0" y="105" width="375" height="32"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="SFUIDisplay-Regular" family="SF UI Display" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tell us what Genres of Music you prefer to find, listen and follow..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x4F-Dp-Ujs">
+                                <rect key="frame" x="60" y="145" width="254" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="SFUIText-Light" family="SF UI Text" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="XqV-Cc-o1m">
+                                <rect key="frame" x="37" y="222" width="300" height="236"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cellGenre" id="dbf-Z6-wXl">
+                                        <rect key="frame" x="0.0" y="28" width="300" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dbf-Z6-wXl" id="IhI-zv-bWG">
+                                            <rect key="frame" x="0.0" y="0.0" width="300" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="check_off" translatesAutoresizingMaskIntoConstraints="NO" id="o3M-zW-CDX">
+                                                    <rect key="frame" x="62" y="7" width="30" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ywu-3a-Mjb">
+                                                    <rect key="frame" x="100" y="14" width="36" height="17"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kV2-Gv-qps">
+                                <rect key="frame" x="37" y="573" width="300" height="50"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.64328390359999998" blue="0.065330743790000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="17"/>
+                                <state key="normal" title="DONE">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="gbA-1G-Ff8" kind="show" id="N1R-Ro-N0c"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arr_up" translatesAutoresizingMaskIntoConstraints="NO" id="Ptk-E3-SDT">
+                                <rect key="frame" x="174" y="201" width="26" height="13"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Search Genres" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="T5V-kr-Mv2">
+                                <rect key="frame" x="37" y="505" width="300" height="50"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="0.89803921568627454" green="0.8901960784313725" blue="0.8901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Dz-JU-LWF">
+                                <rect key="frame" x="263" y="513" width="63" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="0.85098039215686272" green="0.85098039215686272" blue="0.85098039215686272" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="14"/>
+                                <state key="normal" title="ADD">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arr_down" translatesAutoresizingMaskIntoConstraints="NO" id="2yb-6s-a7A">
+                                <rect key="frame" x="176" y="466" width="23" height="12"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="KSq-ww-8j8" firstAttribute="top" secondItem="rCD-dp-hRT" secondAttribute="top" id="6yc-uU-E9M"/>
+                            <constraint firstItem="KSq-ww-8j8" firstAttribute="leading" secondItem="rCD-dp-hRT" secondAttribute="leading" id="d35-bD-oMT"/>
+                            <constraint firstItem="rCD-dp-hRT" firstAttribute="trailing" secondItem="KSq-ww-8j8" secondAttribute="trailing" id="dky-54-2M6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="rCD-dp-hRT"/>
+                    </view>
+                    <connections>
+                        <outlet property="btnAdd" destination="2Dz-JU-LWF" id="a4x-AZ-bYj"/>
+                        <outlet property="btnDone" destination="kV2-Gv-qps" id="wEi-0N-KMK"/>
+                        <outlet property="txtTag" destination="T5V-kr-Mv2" id="d0W-2e-uA5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4It-vf-7pQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1358" y="1563"/>
+        </scene>
+        <!--Select TagVC-->
+        <scene sceneID="9hJ-Hp-SQB">
+            <objects>
+                <viewController storyboardIdentifier="SelectTagVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="gbA-1G-Ff8" customClass="SelectTagVC" customModule="Trackd" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fWd-NH-Him">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KZr-EB-exG">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0RY-7z-4Nz">
+                                        <rect key="frame" x="0.0" y="43" width="375" height="1"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                        <color key="backgroundColor" red="0.70189809800000003" green="0.70200085639999998" blue="0.70187574630000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="EYH-WR-pHa">
+                                        <rect key="frame" x="161" y="3" width="52" height="38"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KlT-D8-sDG">
+                                        <rect key="frame" x="8" y="7" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="btn_back"/>
+                                        <connections>
+                                            <action selector="onBack:" destination="gbA-1G-Ff8" eventType="touchUpInside" id="Pb2-zc-hNv"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Klk-fD-1rN"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Search Genres" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rgy-DZ-XZ5">
+                                <rect key="frame" x="0.0" y="105" width="375" height="32"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="SFUIDisplay-Regular" family="SF UI Display" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="65A-Tv-VP2">
+                                <rect key="frame" x="37" y="172" width="300" height="284"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cellGenre" id="vL9-di-v3s">
+                                        <rect key="frame" x="0.0" y="28" width="300" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="vL9-di-v3s" id="H95-Wk-Gux">
+                                            <rect key="frame" x="0.0" y="0.0" width="300" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="check_off" translatesAutoresizingMaskIntoConstraints="NO" id="94p-f1-uDQ">
+                                                    <rect key="frame" x="62" y="7" width="30" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NyW-vx-Ipb">
+                                                    <rect key="frame" x="100" y="14" width="36" height="17"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dmi-Sl-tph">
+                                <rect key="frame" x="37" y="573" width="300" height="50"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.64328390359999998" blue="0.065330743790000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="17"/>
+                                <state key="normal" title="DONE">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="9fg-tV-9Df" kind="presentation" modalTransitionStyle="crossDissolve" id="lM7-2s-8Na"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arr_up" translatesAutoresizingMaskIntoConstraints="NO" id="PZ8-TH-zGh">
+                                <rect key="frame" x="174" y="151" width="26" height="13"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Search Genres" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XN0-zd-kfV">
+                                <rect key="frame" x="37" y="505" width="300" height="50"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="0.8980392157" green="0.89019607840000003" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0m3-hf-uYb">
+                                <rect key="frame" x="263" y="513" width="63" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="0.85098039219999999" green="0.85098039219999999" blue="0.85098039219999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="14"/>
+                                <state key="normal" title="ADD">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arr_down" translatesAutoresizingMaskIntoConstraints="NO" id="9eT-xS-LL0">
+                                <rect key="frame" x="176" y="464" width="23" height="12"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="KZr-EB-exG" firstAttribute="top" secondItem="Wtq-2H-2jK" secondAttribute="top" id="acW-Dd-a4N"/>
+                            <constraint firstItem="Wtq-2H-2jK" firstAttribute="trailing" secondItem="KZr-EB-exG" secondAttribute="trailing" id="g7e-7C-Bt6"/>
+                            <constraint firstItem="KZr-EB-exG" firstAttribute="leading" secondItem="Wtq-2H-2jK" secondAttribute="leading" id="t9S-VA-n29"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Wtq-2H-2jK"/>
+                    </view>
+                    <connections>
+                        <outlet property="btnAdd" destination="0m3-hf-uYb" id="q5t-FO-QiE"/>
+                        <outlet property="btnDone" destination="dmi-Sl-tph" id="xOA-Ss-w2W"/>
+                        <outlet property="txtTag" destination="XN0-zd-kfV" id="tZM-lF-rm1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CyM-jb-ugB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2057" y="1563"/>
+        </scene>
+        <!--MainTabBar-->
+        <scene sceneID="XLc-qa-6CG">
+            <objects>
+                <viewControllerPlaceholder storyboardName="MainTabBar" id="9fg-tV-9Df" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Sj-bG-fNd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2057" y="1994"/>
+        </scene>
+        <!--Invite FriendVC-->
+        <scene sceneID="hr5-Aq-Vto">
+            <objects>
+                <viewController storyboardIdentifier="InviteFriendVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ww2-cL-0X0" customClass="InviteFriendVC" customModule="Trackd" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DWX-tI-X1Y">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="369-jk-FvD">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RPk-eB-fLw">
+                                        <rect key="frame" x="0.0" y="43" width="375" height="1"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                        <color key="backgroundColor" red="0.70189809800000003" green="0.70200085639999998" blue="0.70187574630000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="KeR-8E-rUn">
+                                        <rect key="frame" x="161" y="3" width="52" height="38"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="ukR-HH-bsH"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Invite your friends?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gJM-QD-X4W">
+                                <rect key="frame" x="0.0" y="105" width="375" height="32"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="SFUIDisplay-Regular" family="SF UI Display" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Invite your friends to Trackd and spread the love in finding new music." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kf6-ab-aB1">
+                                <rect key="frame" x="60" y="145" width="254" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="SFUIText-Light" family="SF UI Text" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icon_invite" translatesAutoresizingMaskIntoConstraints="NO" id="6fh-Ar-DsS">
+                                <rect key="frame" x="148" y="292" width="79" height="83"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="chS-Xd-7Aq">
+                                <rect key="frame" x="37" y="571" width="300" height="50"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="17"/>
+                                <state key="normal" title="LATER">
+                                    <color key="titleColor" red="0.29019607843137252" green="0.29019607843137252" blue="0.29019607843137252" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y6c-Iz-P9o">
+                                <rect key="frame" x="37" y="500" width="300" height="50"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.64328390359999998" blue="0.065330743790000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="17"/>
+                                <state key="normal" title="INVITE FRIENDS">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="369-jk-FvD" firstAttribute="top" secondItem="WNf-2j-uyd" secondAttribute="top" id="2dT-gQ-XZ1"/>
+                            <constraint firstItem="WNf-2j-uyd" firstAttribute="trailing" secondItem="369-jk-FvD" secondAttribute="trailing" id="AH9-0b-SCC"/>
+                            <constraint firstItem="369-jk-FvD" firstAttribute="leading" secondItem="WNf-2j-uyd" secondAttribute="leading" id="drw-ix-pJz"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="WNf-2j-uyd"/>
+                    </view>
+                    <connections>
+                        <outlet property="btnInvite" destination="y6c-Iz-P9o" id="sc4-vV-XdW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wt2-Xb-zLh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2750" y="1563"/>
+        </scene>
+        <!--Select InstrumentVC-->
+        <scene sceneID="myX-Ul-Hck">
+            <objects>
+                <viewController storyboardIdentifier="SelectInstrumentVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="lRl-ut-GiU" customClass="SelectInstrumentVC" customModule="Trackd" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nPX-D2-4zF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JWG-24-Os9">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uFH-2p-tfZ">
+                                        <rect key="frame" x="0.0" y="43" width="375" height="1"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                        <color key="backgroundColor" red="0.70189809800000003" green="0.70200085639999998" blue="0.70187574630000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="lg8-Tu-15n">
+                                        <rect key="frame" x="161" y="3" width="52" height="38"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SMv-og-D5U">
+                                        <rect key="frame" x="8" y="7" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="btn_back"/>
+                                        <connections>
+                                            <action selector="onBack:" destination="lRl-ut-GiU" eventType="touchUpInside" id="Cdh-82-MAO"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="toM-pF-7oc"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zTi-YO-2kw">
+                                <rect key="frame" x="0.0" y="105" width="375" height="63"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <string key="text">Musicians,
+step forward.</string>
+                                <fontDescription key="fontDescription" name="SFUIDisplay-Regular" family="SF UI Display" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Choose your instruments..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F3W-Pm-qZl">
+                                <rect key="frame" x="61" y="183" width="254" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="SFUIText-Light" family="SF UI Text" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bcy-Cc-aLn">
+                                <rect key="frame" x="37" y="573" width="300" height="50"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.68627450980000004" blue="0.86274509799999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="17"/>
+                                <state key="normal" title="DONE">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="WYM-9a-j3Z" kind="show" id="M3t-eK-WnS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i1J-y6-Yeq">
+                                <rect key="frame" x="34" y="279" width="65" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="inst1_off"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vB0-qY-zo4">
+                                <rect key="frame" x="115" y="279" width="65" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="inst2_off"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yzJ-zt-hUN">
+                                <rect key="frame" x="196" y="279" width="65" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="inst3_off"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yvh-fT-dCs">
+                                <rect key="frame" x="277" y="279" width="65" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="inst4_off"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hyB-bC-Kbf">
+                                <rect key="frame" x="34" y="402" width="65" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="inst5_off"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eqs-p1-IY6">
+                                <rect key="frame" x="115" y="402" width="65" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="inst6_off"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kT5-av-7iA">
+                                <rect key="frame" x="196" y="402" width="65" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="inst7_off"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gZ7-Fh-Qc3">
+                                <rect key="frame" x="277" y="402" width="65" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="inst8_off"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="JWG-24-Os9" firstAttribute="leading" secondItem="pPP-o2-ZT1" secondAttribute="leading" id="0iX-4U-fV5"/>
+                            <constraint firstItem="JWG-24-Os9" firstAttribute="top" secondItem="pPP-o2-ZT1" secondAttribute="top" id="tFO-WC-rCr"/>
+                            <constraint firstItem="pPP-o2-ZT1" firstAttribute="trailing" secondItem="JWG-24-Os9" secondAttribute="trailing" id="zSb-J0-wfy"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="pPP-o2-ZT1"/>
+                    </view>
+                    <connections>
+                        <outlet property="btnDone" destination="bcy-Cc-aLn" id="FN3-xE-To3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OOY-a0-iMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="649" y="2322"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arr_down" width="23" height="11.666666984558105"/>
+        <image name="arr_up" width="25.666666030883789" height="13"/>
+        <image name="btn_back" width="30" height="30"/>
+        <image name="btn_fbconnect" width="316" height="48"/>
+        <image name="btn_fblogin" width="316" height="48"/>
+        <image name="check_off" width="30" height="30"/>
+        <image name="icon_invite" width="80.333335876464844" height="83"/>
+        <image name="inst1_off" width="65" height="65"/>
+        <image name="inst2_off" width="65" height="65"/>
+        <image name="inst3_off" width="65" height="65"/>
+        <image name="inst4_off" width="65" height="65"/>
+        <image name="inst5_off" width="65" height="65"/>
+        <image name="inst6_off" width="65" height="65"/>
+        <image name="inst7_off" width="65" height="65"/>
+        <image name="inst8_off" width="65" height="65"/>
+        <image name="logo" width="52" height="38.333332061767578"/>
+        <image name="logo_t" width="201" height="53"/>
+        <image name="r_create" width="294" height="223"/>
+        <image name="type_bg" width="294" height="186.33332824707031"/>
+        <image name="type_disc" width="46.333332061767578" height="46.333332061767578"/>
+        <image name="type_mic" width="29.666666030883789" height="50"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="tuh-Lv-X6l"/>
+        <segue reference="C8a-ci-eH8"/>
+    </inferredMetricsTieBreakers>
+</document>

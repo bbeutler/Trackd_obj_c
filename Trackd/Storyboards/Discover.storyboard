@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7N3-jH-Muu">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Discover-->
+        <scene sceneID="9pF-z1-jPd">
+            <objects>
+                <navigationController navigationBarHidden="YES" id="7N3-jH-Muu" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Discover" image="tab_discover" id="BKT-mK-XFr"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="4kS-3V-gsR">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="qOX-RA-z4C" kind="relationship" relationship="rootViewController" id="SmB-Do-47o"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hI1-od-SjJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-402" y="-268"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="2hh-lV-lkx">
+            <objects>
+                <viewController id="qOX-RA-z4C" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lbc-NT-fPZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="nx5-o3-uoO"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="vUo-nE-Fci"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G9O-AB-p5r" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="326" y="-267"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tab_discover" width="26" height="26"/>
+    </resources>
+</document>

@@ -1,0 +1,63 @@
+PODS:
+  - AASegmentedControl (1.1)
+  - Alamofire (4.7.3)
+  - AudioKit (4.5.4):
+    - AudioKit/Core (= 4.5.4)
+    - AudioKit/UI (= 4.5.4)
+  - AudioKit/Core (4.5.4)
+  - AudioKit/UI (4.5.4):
+    - AudioKit/Core
+  - BuddyBuildSDK (1.0.17)
+  - IQKeyboardManagerSwift (6.2.0)
+  - ProgressHUD (2.60)
+  - ReachabilitySwift (4.3.0)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+  - SwiftyCrypto (0.0.1)
+  - SwiftyJSON (4.2.0)
+  - SwiftyJWT (0.0.3):
+    - SwiftyCrypto (~> 0.0.1)
+
+DEPENDENCIES:
+  - AASegmentedControl
+  - Alamofire
+  - AudioKit
+  - BuddyBuildSDK
+  - IQKeyboardManagerSwift
+  - ProgressHUD
+  - ReachabilitySwift
+  - SDWebImage
+  - SwiftyJSON
+  - SwiftyJWT
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AASegmentedControl
+    - Alamofire
+    - AudioKit
+    - BuddyBuildSDK
+    - IQKeyboardManagerSwift
+    - ProgressHUD
+    - ReachabilitySwift
+    - SDWebImage
+    - SwiftyCrypto
+    - SwiftyJSON
+    - SwiftyJWT
+
+SPEC CHECKSUMS:
+  AASegmentedControl: 0d634e469ebde7c0a2a8ce002a5e6680dd8dc407
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  AudioKit: af3f5b73e22f85f3cd03076fea8afbb9658f0938
+  BuddyBuildSDK: 8ae12ee721098b356a961ea7dce70ae55f93a7d2
+  IQKeyboardManagerSwift: b07ccf9d8cafe993dcd6cb794eb4ba34611a0c4e
+  ProgressHUD: 4e4efbaf4f5de8bd32e0c4c3b6644a90ea1a8c3e
+  ReachabilitySwift: 408477d1b6ed9779dba301953171e017c31241f3
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  SwiftyCrypto: ab59cdb153a7ca99b657fa8d9ebd2ebbd7694bbe
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+  SwiftyJWT: e46e8457138c6567a1a9ff05a6efc8ef678c1187
+
+PODFILE CHECKSUM: dfb3427aabdcac2626a2772ab1f3f3d1e59a317b
+
+COCOAPODS: 1.5.3
